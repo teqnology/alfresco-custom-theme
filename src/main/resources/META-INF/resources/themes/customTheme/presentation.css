@@ -926,6 +926,10 @@ body.yui-skin-customTheme .treeview .ygtvlphh,
 body.yui-skin-customTheme .treeview .ygtvdepthcell
 {
    background-image: url(images/ic_folder_black_24dp.png) !important;
+   width: 24px !important;
+   height: 24px !important;
+   cursor: pointer !important;
+   opacity: 0.5 !important;
 }
 
 /* end doclist */
@@ -1366,9 +1370,14 @@ div.theme-bg-color-8
     padding: 1px;
 }
 
-.alfresco-share .alfresco-header-Header .dijitReset.dijitInline.dijitMenuItemLabel.dijitMenuItem {
-   color: #FFFFFF;
-   background-color: transparent;
+.alfresco-share .alfresco-header-Header .dijitReset.dijitInline.dijitMenuItemLabel.dijitMenuItem
+{
+}
+
+.alfresco-share .alfresco-header-Header .dijitReset.dijitInline.dijitMenuItemLabel.dijitMenuItem:hover
+{
+   color: #FFFFFF !important;
+   background-color: none;
 }
 
 .alfresco-share .alfresco-menus-AlfMenuBar .dijitMenuBar .dijitMenuPassive .dijitMenuItemHover, .alfresco-share .alfresco-menus-AlfMenuBar .dijitMenuBar .dijitMenuItemHover, .alfresco-share .alfresco-menus-AlfMenuBar .dijitMenuBar .dijitMenuItemSelected
@@ -1418,4 +1427,17 @@ div.theme-bg-color-8
 .alfresco-header-Warning .warnings
 {
    margin: 0;
+}
+
+.toolbar .breadcrumb .separator {
+    color: #FFFFFF;
+}
+
+.ygtvtm, .ygtvlm, .ygtvlm, .ygtvtmh, .ygtvtmhh, .ygtvtp, .ygtvtph
+{
+}
+
+.alfresco-share .alfresco-header-Header .alfresco-menus-AlfMenuBar .dijitMenuPassive .dijitMenuItemHover
+{
+   background-color: none;
 }
