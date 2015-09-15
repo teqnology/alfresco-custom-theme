@@ -930,6 +930,7 @@ body.yui-skin-customTheme .treeview .ygtvdepthcell
    height: 24px !important;
    cursor: pointer !important;
    opacity: 0.5 !important;
+   background: transparent !important;
 }
 
 /* end doclist */
@@ -1377,7 +1378,7 @@ div.theme-bg-color-8
 .alfresco-share .alfresco-header-Header .dijitReset.dijitInline.dijitMenuItemLabel.dijitMenuItem:hover
 {
    color: #FFFFFF !important;
-   background-color: none;
+   background-color: transparent !important;
 }
 
 .alfresco-share .alfresco-menus-AlfMenuBar .dijitMenuBar .dijitMenuPassive .dijitMenuItemHover, .alfresco-share .alfresco-menus-AlfMenuBar .dijitMenuBar .dijitMenuItemHover, .alfresco-share .alfresco-menus-AlfMenuBar .dijitMenuBar .dijitMenuItemSelected
