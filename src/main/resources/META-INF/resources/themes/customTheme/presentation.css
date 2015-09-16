@@ -1528,3 +1528,9 @@ div.theme-bg-color-8
    line-height: 36px;
    vertical-align: middle;
 }
+
+.doclist .yui-dt-error
+{
+   background: #FF5722 !important;
+   color: #CFD8DC !important;
+}
