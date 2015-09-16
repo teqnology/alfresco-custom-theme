@@ -10,6 +10,10 @@ Alfresco 4.2.x Custom Theme
 - Override of Alfresco Share Header style
 - Removed a bunch of old images, and using pure CSS for styling
 - Added support for Material Icons through css/png
+- New pagination style
+- New navbars for `repository` page
+- Forced font-family Open Sans for most of the components (headers, navbars, tree views, category views, repository page, drag&drop component etc.)
+- Changed styling of footer
 
 #TODO
 
@@ -18,3 +22,4 @@ Alfresco 4.2.x Custom Theme
 - Checkboxes
 - Inputs
 - Widgets
+- Header Search box 

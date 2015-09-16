@@ -42,7 +42,7 @@ button:focus {outline:none;}
 {
    font-family: Open Sans;
    font-size: 1em;
-   color: #212121;
+   color: #727272;
 }
 
 .sticky-wrapper a,
@@ -129,6 +129,7 @@ h4 .lighter
 .alfresco-share .sticky-wrapper
 {
    background-color: #FAFAFA;
+   font-family: Open Sans;
 }
 
 .alfresco-guest .sticky-wrapper
@@ -578,6 +579,7 @@ span.mce_alfresco-linklibrary
 .yui-skin-customTheme div.flat-button span.yui-button span.first-child
 {
    border-color: transparent;
+   cursor: pointer;
 }
 
 .yui-skin-customTheme div.flat-button span.yui-button-hover
@@ -930,7 +932,7 @@ body.yui-skin-customTheme .treeview .ygtvdepthcell
    height: 24px !important;
    cursor: pointer !important;
    opacity: 0.5 !important;
-   background: transparent !important;
+   background: transparent;
 }
 
 /* end doclist */
@@ -1317,8 +1319,17 @@ div.theme-bg-color-8
 .toolbar .nav-bar
 {
    border-top: 0 !important;
-   overflow-y:hidden;
-   padding:0 !important;
+   /*padding: 1em !important;*/
+}
+
+.toolbar .header-bar, .toolbar .nav-bar
+{
+   padding: 1em !important;
+}
+
+.toolbar .header-bar
+{
+   border-bottom: 1px solid #B6B6B6;
 }
 
 .alfresco-share .alfresco-header-Header, #SHARE_HEADER {
@@ -1441,4 +1452,47 @@ div.theme-bg-color-8
 .alfresco-share .alfresco-header-Header .alfresco-menus-AlfMenuBar .dijitMenuPassive .dijitMenuItemHover
 {
    background-color: none;
+}
+
+.treeview .ygtvitem, .categoryview .ygtvitem
+{
+   /*background-color: inherit;*/
+}
+
+/* header Search box */
+#HEADER_SEARCH_BOX
+{
+   width: 100% !important;
+   position: relative;
+   margin: 0;
+   background-color: inherit;
+   border-radius: 0;
+   box-shadow: 0 0 0 #d4d4d4 inset;
+   padding-left: 0;
+   padding-bottom: 0;
+   height: inherit;
+}
+
+#HEADER_SEARCHBOX_FORM_FIELD
+{
+   position: relative;
+   box-sizing: border-box;
+   max-width: 100%;
+   margin: 0;
+   border: 0;
+   border-bottom: 1px solid #B6B6B6;
+   display: inline-block;
+   font-size: 1.2em;
+   text-align: left;
+   background-color: transparent;
+   color: #d4d4d4;
+}
+
+.alfresco-share .alfresco-header-SearchBox .alfresco-header-SearchBox-clear
+{
+   width: 24px !important;
+   height: 24px !important
+   margin-right: 1em !important;
+   background-image: url(images/ic_highlight_off_white_24dp.png) !important;
+   background-repeat: no-repeat;
 }

@@ -1166,6 +1166,7 @@ white-space: nowrap;
 margin: 0;
 padding: 0;
 padding: 4px 10px 4px 10px;
+font-family:Open Sans;
 }
 .yui-skin-customTheme .yui-dt-coltarget {
 width: 5px;
@@ -2948,6 +2949,10 @@ background-image: url(menuitem_checkbox_disabled.png);
 display: block;
 margin: 6px 0;
 white-space: nowrap;
+font-size: 1.2em;
+padding: 0 10px;
+line-height: 30px;
+text-align: center;
 }
 .yui-skin-customTheme .yui-pg-first,.yui-skin-customTheme .yui-pg-previous,.yui-skin-customTheme .yui-pg-next,.yui-skin-customTheme .yui-pg-last,.yui-skin-customTheme .yui-pg-current,.yui-skin-customTheme .yui-pg-pages,.yui-skin-customTheme .yui-pg-page {
 display: inline-block;
