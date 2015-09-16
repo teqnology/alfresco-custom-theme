@@ -1495,3 +1495,36 @@ div.theme-bg-color-8
    margin-right: 1em !important;
    background-image: url(images/ic_highlight_off_white_24dp.png) !important;
 }
+
+.docListInstructionsWithDND
+{
+   border: 1px solid #FF5722 !important;
+   padding: 1em !important;
+}
+
+/* Button styling */
+.yui-skin-customTheme .node .nodeTitle a, .yui-skin-customTheme .node .nodeURL a, .yui-skin-customTheme .nodeAttrValue a, .yui-skin-customTheme .nodeFooter .tag a, .yui-skin-customTheme .yui-dt-highlighted .tag a, .yui-skin-customTheme .yui-dt-highlighted .category a, .yui-skin-customTheme .yui-dt-highlighted .item-social a, .yui-skin-customTheme a.wiki-tag-link, .yui-skin-customTheme .node .userLink a, .yui-skin-customTheme .site-members h3 a, .yui-skin-customTheme .yui-calendar td.calcell a, .yui-skin-customTheme .doclist .documents a, .yui-skin-customTheme .attrValue a, .yui-skin-customTheme .detail .item a, .yui-skin-customTheme .info .meta-value a, .yui-skin-customTheme .rules-none a, .yui-skin-customTheme .agendaview a, .yui-skin-customTheme a.previousEvents, .yui-skin-customTheme a.nextEvents, .yui-skin-customTheme div.channels a
+{
+   background: #FF5722;
+   color: rgb(255,255,255);
+   border: none;
+   border-radius: 2px;
+   position: relative;
+   height: 36px;
+   min-width: 64px;
+   padding: 0 8px;
+   display: inline-block;
+   font-size: 14px;
+   text-transform: uppercase;
+   letter-spacing: 0;
+   overflow: hidden;
+   will-change: box-shadow, transform;
+   -webkit-transition: box-shadow 0.2s cubic-bezier(0.4, 0, 1, 1), background-color 0.2s cubic-bezier(0.4, 0, 0.2, 1), color 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+   transition: box-shadow 0.2s cubic-bezier(0.4, 0, 1, 1), background-color 0.2s cubic-bezier(0.4, 0, 0.2, 1), color 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+   outline: none;
+   cursor: pointer;
+   text-decoration: none;
+   text-align: center;
+   line-height: 36px;
+   vertical-align: middle;
+}
