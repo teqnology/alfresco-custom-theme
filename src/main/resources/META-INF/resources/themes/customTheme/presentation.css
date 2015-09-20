@@ -55,7 +55,7 @@ button:focus {outline:none;}
 .yui-overlay a:visited,
 .yui-overlay a:hover
 {
-   color: #CFD8DC;
+   color: #B6B6B6;
    text-decoration: none;
 }
 
@@ -924,8 +924,9 @@ body.yui-skin-customTheme .treeview .ygtvlmh,
 body.yui-skin-customTheme .treeview .ygtvlmhh,
 body.yui-skin-customTheme .treeview .ygtvlp,
 body.yui-skin-customTheme .treeview .ygtvlph,
-body.yui-skin-customTheme .treeview .ygtvlphh,
-body.yui-skin-customTheme .treeview .ygtvdepthcell
+body.yui-skin-customTheme .treeview .ygtvlphh
+/*,
+body.yui-skin-customTheme .treeview .ygtvdepthcell*/
 {
    background-image: url(images/ic_folder_black_24dp.png) !important;
    width: 24px !important;
