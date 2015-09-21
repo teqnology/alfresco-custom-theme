@@ -321,9 +321,13 @@ h4 .lighter
 }
 
 .yui-skin-customTheme .yui-dt-message,
+{
+   /*background-color: white;*/
+}
+
 .yui-skin-customTheme .yui-dt-message tr.yui-dt-highlighted
 {
-   background-color: white;
+   background-color: #FF5722;
 }
 
 /* Style the default message  */
@@ -882,7 +886,7 @@ body.yui-skin-customTheme .links-body tr.links-selected-row,
 body.yui-skin-customTheme .over,
 .topicview
 {
-   background-color: #F7FEF4;
+   background-color: #CFD8DC;
 }
 
 .site-members .search-controls
@@ -1506,17 +1510,20 @@ div.theme-bg-color-8
 /* Button styling */
 .yui-skin-customTheme .node .nodeTitle a, .yui-skin-customTheme .node .nodeURL a, .yui-skin-customTheme .nodeAttrValue a, .yui-skin-customTheme .nodeFooter .tag a, .yui-skin-customTheme .yui-dt-highlighted .tag a, .yui-skin-customTheme .yui-dt-highlighted .category a, .yui-skin-customTheme .yui-dt-highlighted .item-social a, .yui-skin-customTheme a.wiki-tag-link, .yui-skin-customTheme .node .userLink a, .yui-skin-customTheme .site-members h3 a, .yui-skin-customTheme .yui-calendar td.calcell a, .yui-skin-customTheme .doclist .documents a, .yui-skin-customTheme .attrValue a, .yui-skin-customTheme .detail .item a, .yui-skin-customTheme .info .meta-value a, .yui-skin-customTheme .rules-none a, .yui-skin-customTheme .agendaview a, .yui-skin-customTheme a.previousEvents, .yui-skin-customTheme a.nextEvents, .yui-skin-customTheme div.channels a
 {
-   background: #FF5722;
-   color: rgb(255,255,255);
+   background: transparent;
    border: none;
    border-radius: 2px;
+   color: #FF5722;
+   display: block;
    position: relative;
    height: 36px;
    min-width: 64px;
    padding: 0 8px;
    display: inline-block;
    font-size: 14px;
+   font-weight: 500;
    text-transform: uppercase;
+   line-height: 1;
    letter-spacing: 0;
    overflow: hidden;
    will-change: box-shadow, transform;
@@ -1534,4 +1541,19 @@ div.theme-bg-color-8
 {
    background: #FF5722 !important;
    color: #CFD8DC !important;
+}
+
+.doclist .documents .detail a.comment
+{
+   background-image: url(images/ic_insert_comment_black_24dp.png) !important;
+   background-repeat: no-repeat;
+   background-position: 0 !important;
+   padding: 0 2em !important;
+}
+
+.doclist .action-set a
+{
+   background-repeat: no-repeat !important;
+   background-position: 0 !important;
+   padding: 0 2em !important;
 }
